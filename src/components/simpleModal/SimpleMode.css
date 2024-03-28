@@ -1,0 +1,80 @@
+.modal {
+  position: absolute;
+  width: 320px;
+  top: 60px;
+  right: 40px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 0px 9px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+
+  margin-right: 130px;
+}
+
+.list-item a {
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 24px;
+  color: black;
+}
+
+.ava {
+  background: #ccc;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+.ava.blue {
+  color: #0963be;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  border-bottom: 2px solid #ccc;
+  font-weight: 600;
+}
+
+.item-4,
+.item-5,
+.item-6 {
+  background-color: #edeaea;
+  border-radius: 4px;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.modal p {
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.arrow {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+}
+
+.date {
+  display: inline-block;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+}
